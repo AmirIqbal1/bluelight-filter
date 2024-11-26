@@ -43,3 +43,37 @@ To use the app, simply call one of the functions. For example, to decrease the s
 ```python
 decrease_temp()
 ```
+
+Startup Script
+=============
+
+To start the blue light filter app automatically when your system starts up, you can create a startup script. Here are the steps to create a startup script:
+
+1. Open a terminal and create a new file called `bluelight-filter-app.desktop` in the `~/.config/autostart` directory using the following command:
+
+```bash
+nano ~/.config/autostart/bluelight-filter-app.desktop
+```
+
+2. Add the following contents to the file:
+
+```makefile
+[Desktop Entry]
+Type=Application
+Name=Bluelight Filter App
+Exec=python3 /path/to/bluelight_filter.py
+StartupNotify=false
+Terminal=false
+```
+
+Replace `/path/to/bluelight_filter.py` with the actual path to the `bluelight_filter.py` script.
+
+3. Save and close the file.
+
+4. Make the script executable using the following command:
+
+```bash
+chmod +x ~/.config/autostart/bluelight-filter-app.desktop
+```
+
+5. Restart your system to test the startup script.
