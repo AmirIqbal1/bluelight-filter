@@ -54,6 +54,8 @@ To start the blue light filter app automatically when your system starts up, you
 
 3. Replace `/path/to/bluelight_filter.py` with the actual path to the `bluelight_filter.py` script.
 
-4. Log out your system to test the startup script.
+4. Delay startup for 8 seconds.
+
+5. Log out your system to test the startup script.
 
    
