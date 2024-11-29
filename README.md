@@ -3,6 +3,8 @@ Bluelight Filter
 
 This is a simple blue light filter app for Linux Mint with Cinnamon desktop. The app uses the `xrandr` command to adjust the color temperature of the screen to a warmer temperature that reduces blue light.
 
+Also comes with "bluelight-filter-off.py", which turns off bluelight.
+
 Installation
 ------------
 
