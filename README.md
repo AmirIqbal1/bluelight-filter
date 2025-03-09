@@ -23,7 +23,7 @@ cd bluelight-filter-app
 3. Install the required dependencies:
 
 ```bash
-sudo apt-get install xrandr
+sudo apt-get install xrandr -y
 ```
 
 4. Run the app:
